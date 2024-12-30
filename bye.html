@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you!</title>
+</head>
+
+<style type="text/css">
+    button {
+        background-color: #1cac78;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+        border-radius: 500px;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    .quiz-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .image-option {
+        margin: 10px;
+        border: 2px solid #ccc;
+        padding: 5px;
+        transition: transform 0.3s ease;
+    }
+
+    .image-option:hover {
+        transform: scale(1.05);
+    }
+
+    .result {
+        margin-top: 20px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-family: lucida handwriting;
+
+    }
+</style>
+
+<body background="C:\Users\User\Documents\winter\DINOSAUR\Dinky Dinos Wallpaper in Sage Green.jpg">
+   <center><button onclick="playAudio()">Click Me!</button></center> 
+
+    <audio id="myDrama">
+        <source src="C:\Users\User\Documents\winter\DINOSAUR\drama.m4a" type="audio/mp3">
+    </audio>
+
+   <center> 
+       <img src="C:\Users\User\Documents\winter\DINOSAUR\shelikes spring, i like winter aespa.jpg"> 
+   </center>
+
+   <div id="endIng">
+    <center>
+        <p>Thank you for reaching the end of my webpage. But before that, take a moment to answer this short fun quiz of mine :> </p>
+    </center>
+    
+    <form id="quizForm">
+        <h2>1.) Which of these is a Stegosaurus?</h2>
+        <div class="quiz-container">
+            <div>
+                <input type="radio" id="img1" name="question1" value="1">
+                <label for="img1">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\3D Models _ Over A Million Models For Download _ TurboSquid.jpg" alt="Option 1">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img2" name="question1" value="2">
+                <label for="img2">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Ankylosaurus.jpg" alt="Option 2">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img3" name="question1" value="3">
+                <label for="img3">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Dinosaur.jpg" alt="Option 3">
+                </label>
+            </div>
+        </div>
+        <br>
+
+        <h2>2.) Which of these is an Ankylosaurus?</h2>
+        <div class="quiz-container">
+            <div>
+                <input type="radio" id="img4" name="question2" value="1">
+                <label for="img4">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Dinosaur.jpg" alt="Option 1">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img5" name="question2" value="2">
+                <label for="img5">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Edmontosaurus.jpg" alt="Option 2">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img6" name="question2" value="3">
+                <label for="img6">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Ankylosaurus.jpg" alt="Option 3">
+                </label>
+            </div>
+        </div>
+        <br>
+
+        <h2>3.) Which of these is an Edmontosaurus?</h2>
+        <div class="quiz-container">
+            <div>
+                <input type="radio" id="img7" name="question3" value="1">
+                <label for="img7">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Nodosaurus.jpg" alt="Option 1">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img8" name="question3" value="2">
+                <label for="img8">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Edmontosaurus.jpg" alt="Option 2">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img9" name="question3" value="3">
+                <label for="img9">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Hadrosaurus.jpg" alt="Option 3">
+                </label>
+            </div>
+        </div>
+        <br>
+
+        <h2>4.) Which of these is a Triceratops?</h2>
+        <div class="quiz-container">
+            <div>
+                <input type="radio" id="img10" name="question4" value="1">
+                <label for="img10">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Stygimoloch.jpg" alt="Option 1">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img11" name="question4" value="2">
+                <label for="img11">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Dinosaur.jpg" alt="Option 2">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img12" name="question4" value="3">
+                <label for="img12">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Hadrosaurus.jpg" alt="Option 3">
+                </label>
+            </div>
+        </div>
+        <br>
+
+        <h2>5.) Which of these is a Dracorex?</h2>
+        <div class="quiz-container">
+            <div>
+                <input type="radio" id="img13" name="question5" value="1">
+                <label for="img13">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Nodosaurus.jpg" alt="Option 1">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img14" name="question5" value="2">
+                <label for="img14">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Ankylosaurus.jpg" alt="Option 2">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="img15" name="question5" value="3">
+                <label for="img15">
+                    <img class="image-option" src="C:\Users\User\Documents\winter\DINOSAUR\Stygimoloch.jpg" alt="Option 3">
+                </label>
+            </div>
+        </div>
+        <br>
+
+        <input type="submit" value="Submit Answers">
+    </form>
+
+    <div class="result" id="result"></div>
+   </div>
+<br> <br> <br> <br> <br> <br>
+  <center> <h2>If you've got it all correct in first try, you're amazing!! thank you for taking the time to visit my webpage. see you again (:></h2> </center>
+
+   <script>
+        function playAudio() {
+            var audio = document.getElementById('myDrama');
+            audio.play(); 
+        }
+
+        document.getElementById('quizForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            
+            
+            var answers = {
+                question1: 1, 
+                question2: 3, 
+                question3: 2, 
+                question4: 2, 
+                question5: 3  
+            };
+
+            
+            var resultText = "";
+            var correctCount = 0;
+            
+            for (var question in answers) {
+                var selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (!selectedAnswer) {
+                    resultText += `Please answer question: ${question.slice(-1)}<br>`;
+                    continue;
+                }
+                
+                if (parseInt(selectedAnswer.value) === answers[question]) {
+                    correctCount++;
+                }
+            }
+
+            if (correctCount === 5) {
+                resultText = "Congratulations! You answered all questions correctly! I'm so proud of you!!";
+            } else {
+                resultText = `You got ${correctCount} out of 5 correct. Don't worry, you can try again!! and guess your mistakes`;
+            }
+
+            document.getElementById('result').innerHTML = resultText;
+        });
+    </script>
+</body>
+</html>
